@@ -1,0 +1,107 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+.jumbotron-header {
+	background: url("photos/image.png");
+	background-size: cover;
+	height: calc(100vh);
+	border-radius: 0;
+} /* Jumbotron je bootstrap opcija za postavljanje hero image-a. Ovde se linkuje slika */
+.navFix {
+	position:fixed;
+	top:0;
+	background:transparent;
+	width:100%;
+	height:80px;
+} /* Pozicija navigacionog menija */
+.black {
+	position:fixed;
+	top:0;
+	background:rgb(0,0,0);
+	width:100%;
+	height:50px;
+	opacity:0.5;
+} /* Crni okvir gde se nalazi navigacioni meni */
+.navFix{
+background-color:rgb(2, 2, 41) !important;
+height: auto;
+} /* Postavljanje black bar-a */
+.navbar-hamburger {
+	font-size:25px;
+	font-weight:600;
+	color:white;
+	text-transform:uppercase;
+	padding-left:10px;
+}
+.navbar-hamburger:hover{
+	text-decoration:none;
+	color:white;
+} /* navbar-hamburger opcije koje omogucavaju aktivaciju hamburger menija. */
+.a-link{
+	color: white;
+	font-size: 18px;
+	line-height: 2.278;
+}
+.nav-link:hover {
+	color:silver;
+}
+.header-h3 {
+    color: white;
+    text-align: center;
+    margin-top: 13vw;
+    font-size: 32px;
+  } /* Formatiranje teksta h3 */
+.header-h1 {
+    color: white;
+    text-align: center;
+    margin: 2vw 0;
+    text-transform: uppercase;
+    font-size: 66px;
+    font-weight: 700;
+} /* Formatiranje teksta h1 */
+.button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none !important;
+  } /* Ghost button */
+  
+.button:hover {
+    color:rgb(2, 2, 17);
+    background-color:lightskyblue;
+    text-decoration: none !important;
+  } /* Ghost Button nakon prelaska kursora */
+.btn {
+	text-decoration:none;
+}
+.services-h1 {
+	font-size:60px;
+	color:rgb(34,34,34);
+	line-height:1.25;
+	text-align:left;
+} /* Osobine teksta koji spada pod naslov. */
+.services-description {
+	font-size:18px;
+	color:rgb(119,119,119);
+	line-height:1.333;
+	text-align:left;
+	max-width:555px;
+} /* Osobine paragrafa unutar elementa. */
+.first-part {
+	margin-top:5vw;
+	margin-bottom:8vw;
+	margin-left:3vw;
+	margin-right:3vw;
+} /* Pozicioniranje elemenata u prvom delu - vw = viewport pozicija. */
+.second-part {
+	margin-bottom:15vw;
+	margin-left:3vw;
+	margin-right:3vw;
+	padding-top:5vw;
+	padding-bottom:5vw;
+} /* Pozicioniranje elemenata u drugom delu - vw = viewport pozicija. */
